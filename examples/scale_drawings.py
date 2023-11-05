@@ -44,11 +44,6 @@ class FretboardDrawing(draw.Drawing):
                     draw.Text(text, 12, x, y, fill=text_color, text_anchor='middle', dominant_baseline='middle'))
 
 
-def test_fretboard_init():
-    assert isinstance(Fretboard(n_frets=12, string_intervals=[5, 5, 5, 4, 5]), Fretboard)
-    assert isinstance(Fretboard(n_frets=12, string_intervals=5, n_strings=6), Fretboard)
-
-
 if __name__ == '__main__':
     intervals = {
         0: 'R',
