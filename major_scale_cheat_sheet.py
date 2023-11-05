@@ -1,16 +1,24 @@
 import drawsvg as draw
 import numpy as np
+from collections.abc import Iterable
+from itertools import accumulate
 
 
 class Fretboard:
 
-    def __init__(self, n_strings: int, n_frets: int, string_intervals: int):
-        self.n_strings = n_strings
+    def __init__(self, *, n_frets: int, string_intervals: (int | Iterable), n_strings: int = None,
+                 note_offset=0):
         self.n_frets = n_frets
-        self.string_intervals = string_intervals
+        if isinstance(string_intervals, Iterable):
+            self.string_intervals = string_intervals
+        elif isinstance(string_intervals, int) and isinstance(n_strings, int):
+            self.string_intervals = [string_intervals] * (n_strings - 1)
+        else:
+            raise TypeError()
 
-        xx, yy = np.mgrid[0:self.n_strings, 0:self.n_frets]
-        self.notes = ((xx - 1) + self.string_intervals * (yy - 1)) % 12
+        self.string_notes = list(accumulate([-note_offset] + self.string_intervals))
+        # calculate note number - note number cycles after 12 semitones
+        self.notes = [[(string + fret) % 12 for string in self.string_notes] for fret in range(n_frets)]
 
 
 class FretboardDrawing(draw.Drawing):
@@ -18,7 +26,7 @@ class FretboardDrawing(draw.Drawing):
     def __init__(self, fretboard, *args, **kwargs):
         self.fretboard = fretboard
         super(FretboardDrawing, self).__init__(*args, **kwargs)
-        self.string_locations = np.linspace(0, self.width, self.fretboard.n_strings)[1:-1]
+        self.string_locations = np.linspace(0, self.width, len(self.fretboard.string_notes))[1:-1]
         self.fret_locations = np.linspace(0, self.height, self.fretboard.n_frets + 1)[1:-1]
         self.fret_centres = self.fret_locations[:-1] + (self.fret_locations[1] - self.fret_locations[0]) / 2
         self.draw_fretboard()
@@ -53,6 +61,11 @@ class FretboardDrawing(draw.Drawing):
                     draw.Text(text, 12, x, y, fill=text_color, text_anchor='middle', dominant_baseline='middle'))
 
 
+def test_fretboard_init():
+    assert isinstance(Fretboard(n_frets=12, string_intervals=[5, 5, 5, 4, 5]), Fretboard)
+    assert isinstance(Fretboard(n_frets=12, string_intervals=5, n_strings=6), Fretboard)
+
+
 if __name__ == '__main__':
     intervals = {
         0: 'R',
@@ -77,7 +90,7 @@ if __name__ == '__main__':
 
     # draw major and pentatonic scales on large grid
     for name, scale in scales.items():
-        fb = Fretboard(17, 17, 5)
+        fb = Fretboard(n_frets=17, n_strings=17, string_intervals=5, note_offset=6)
         fbd = FretboardDrawing(fb, width=500, height=1000)
         fbd.draw_notes(scale, intervals)
         fbd.save_svg(f'drawings/{name}_scale.svg')
