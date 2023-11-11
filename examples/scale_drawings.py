@@ -10,8 +10,8 @@ class FretboardDrawing(draw.Drawing):
     def __init__(self, fretboard, *args, **kwargs):
         self.fretboard = fretboard
         super(FretboardDrawing, self).__init__(*args, **kwargs)
-        self.string_locations = np.linspace(0, self.width, len(self.fretboard.string_notes))[1:-1]
-        self.fret_locations = np.linspace(0, self.height, self.fretboard.n_frets + 1)[1:-1]
+        self.string_locations = np.linspace(0, self.width, len(self.fretboard.string_notes)+2)[1:-1]
+        self.fret_locations = np.linspace(0, self.height, self.fretboard.n_frets + 3)[1:-1]
         self.fret_centres = self.fret_locations[:-1] + (self.fret_locations[1] - self.fret_locations[0]) / 2
         self.draw_fretboard()
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
     # draw major and pentatonic scales on large grid
     for name, scale in scales.items():
-        fb = Fretboard(n_frets=17, n_strings=17, string_intervals=5, note_offset=6)
+        fb = Fretboard(n_frets=15, n_strings=15, string_intervals=5, note_offset=6)
         fbd = FretboardDrawing(fb, width=500, height=1000)
         fbd.draw_notes(scale, intervals)
         fbd.save_svg(f'drawings/{name}_scale.svg')
