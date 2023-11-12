@@ -1,18 +1,15 @@
 # Guitar Practice
 
-Collection of scripts I've written to help me learn guitar.
+Collection of notes and scripts I've made while guitar.
 
-## Image Generation
+## Scales
 
-Following the advice on a [fret science](https://fretscience.com/2022/09/26/standard-tuning-geometry/) post,
-I have found the scale patterns much easier to learn all over the fretboard
-by visualising a self-repeating patter on an 'infinite' fretboard tuned to
-perfect fourth intervals between strings.
+### Major Natural Scale
 
-Major scale:
+![major scale tabulated](drawings/major_scale_table.svg)
 
-![major scale](drawings/major_scale.svg)
+![major scale on fretboard](drawings/major_scale.svg)
 
-Pentatonic scale:
+### Major Pentatonic
 
 ![pentatonic scale](drawings/pentatonic_scale.svg)
