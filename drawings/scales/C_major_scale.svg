@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="180.0" height="680" viewBox="0 0 180.0 680">
+     width="155" height="680" viewBox="0 0 155 680">
 <defs>
 </defs>
-<path d="M15.0,15 L15.0,665" stroke="black" />
-<path d="M45.0,15 L45.0,665" stroke="black" />
-<path d="M75.0,15 L75.0,665" stroke="black" />
-<path d="M105.0,15 L105.0,665" stroke="black" />
-<path d="M135.0,15 L135.0,665" stroke="black" />
-<path d="M165.0,15 L165.0,665" stroke="black" />
-<path d="M15.0,15 L165.0,15" stroke="black" />
-<path d="M15.0,65 L165.0,65" stroke="black" />
-<path d="M15.0,115 L165.0,115" stroke="black" />
-<path d="M15.0,165 L165.0,165" stroke="black" />
-<path d="M15.0,215 L165.0,215" stroke="black" />
-<path d="M15.0,265 L165.0,265" stroke="black" />
-<path d="M15.0,315 L165.0,315" stroke="black" />
-<path d="M15.0,365 L165.0,365" stroke="black" />
-<path d="M15.0,415 L165.0,415" stroke="black" />
-<path d="M15.0,465 L165.0,465" stroke="black" />
-<path d="M15.0,515 L165.0,515" stroke="black" />
-<path d="M15.0,565 L165.0,565" stroke="black" />
-<path d="M15.0,615 L165.0,615" stroke="black" />
-<path d="M15.0,665 L165.0,665" stroke="black" />
-<circle cx="15.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="45.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="75.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="105.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="135.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="165.0" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="15.0" cy="90.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="90.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="135.0" cy="90.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="135.0" y="90.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="165.0" cy="90.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="90.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="45.0" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="75.0" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="105.0" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="15.0" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="45.0" cy="190.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="45.0" y="190.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="75.0" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="135.0" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="165.0" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="105.0" cy="240.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="240.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="15.0" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="45.0" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="75.0" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="105.0" cy="290.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="105.0" y="290.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="135.0" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="165.0" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="135.0" cy="340.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="340.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="15.0" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="45.0" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="75.0" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="105.0" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="165.0" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="15.0" cy="440.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="15.0" y="440.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="45.0" cy="440.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="440.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="135.0" cy="440.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="440.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="165.0" cy="440.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="165.0" y="440.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="75.0" cy="490.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="490.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="105.0" cy="490.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="490.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="15.0" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="45.0" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="75.0" cy="540.0" r="10" fill="red" stroke-width="2" stroke="black" />
-<text x="75.0" y="540.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
-<circle cx="105.0" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
-<circle cx="135.0" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="165.0" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="15.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="15.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
-<circle cx="45.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="45.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
-<circle cx="75.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="75.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
-<circle cx="105.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="105.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
-<circle cx="135.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="135.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
-<circle cx="165.0" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
-<text x="165.0" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<path d="M15,15 L15,665" stroke="black" />
+<path d="M40,15 L40,665" stroke="black" />
+<path d="M65,15 L65,665" stroke="black" />
+<path d="M90,15 L90,665" stroke="black" />
+<path d="M115,15 L115,665" stroke="black" />
+<path d="M140,15 L140,665" stroke="black" />
+<path d="M15,15 L140,15" stroke="black" />
+<path d="M15,65 L140,65" stroke="black" />
+<path d="M15,115 L140,115" stroke="black" />
+<path d="M15,165 L140,165" stroke="black" />
+<path d="M15,215 L140,215" stroke="black" />
+<path d="M15,265 L140,265" stroke="black" />
+<path d="M15,315 L140,315" stroke="black" />
+<path d="M15,365 L140,365" stroke="black" />
+<path d="M15,415 L140,415" stroke="black" />
+<path d="M15,465 L140,465" stroke="black" />
+<path d="M15,515 L140,515" stroke="black" />
+<path d="M15,565 L140,565" stroke="black" />
+<path d="M15,615 L140,615" stroke="black" />
+<path d="M15,665 L140,665" stroke="black" />
+<circle cx="15" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="40" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="65" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="90" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="115" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="140" cy="40.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="40.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="15" cy="90.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="90.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="115" cy="90.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="115" y="90.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="140" cy="90.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="90.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="40" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="65" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="90" cy="140.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="140.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="15" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="40" cy="190.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="40" y="190.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="65" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="115" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="140" cy="190.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="190.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="90" cy="240.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="240.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="15" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="40" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="65" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="90" cy="290.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="90" y="290.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="115" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="140" cy="290.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="290.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="115" cy="340.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="340.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="15" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="40" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="65" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="90" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="140" cy="390.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="390.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="15" cy="440.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="15" y="440.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="40" cy="440.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="440.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="115" cy="440.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="440.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="140" cy="440.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="140" y="440.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="65" cy="490.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="490.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="90" cy="490.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="490.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="15" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="40" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="65" cy="540.0" r="10" fill="red" stroke-width="2" stroke="black" />
+<text x="65" y="540.0" font-size="12" fill="black" text-anchor="middle" dominant-baseline="middle">R</text>
+<circle cx="90" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="115" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="140" cy="540.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="540.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="15" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="15" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="40" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="40" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="65" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="65" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="90" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="90" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="115" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="115" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M7</text>
+<circle cx="140" cy="640.0" r="10" fill="black" stroke-width="2" stroke="black" />
+<text x="140" y="640.0" font-size="12" fill="white" text-anchor="middle" dominant-baseline="middle">M3</text>
 </svg>
