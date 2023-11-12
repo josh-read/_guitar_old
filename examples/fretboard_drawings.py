@@ -58,11 +58,11 @@ if __name__ == '__main__':
             fb = Fretboard(n_frets=13, string_intervals=[5, 5, 5, 4, 5], note_offset=(8 + note_offset))
             fbd = FretboardDrawing(fb)
             fbd.draw_notes(scale_degrees, intervals)
-            fbd.save_svg(f'drawings/scales/{note_name}_{scale_name}_scale.svg')
+            fbd.save_svg(f'drawings/scales/{scale_name}/{note_name}.svg')
 
     # draw major and pentatonic scales on large grid
-    for name, scale in scales.items():
+    for scale_name, scale in scales.items():
         fb = Fretboard(n_frets=15, n_strings=15, string_intervals=5, note_offset=6)
         fbd = FretboardDrawing(fb)
         fbd.draw_notes(scale, intervals)
-        fbd.save_svg(f'drawings/{name}_scale.svg')
+        fbd.save_svg(f'drawings/scales/{scale_name}_large_fretboard.svg')
