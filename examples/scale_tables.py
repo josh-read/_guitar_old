@@ -54,4 +54,4 @@ for y, row_text in zip(grid.row_centres, left_text):
     text = draw.Text(row_text, 12, x=x, y=y, fill='black', text_anchor='end', dominant_baseline='middle')
     d.append(text)
 
-d.save_svg('../drawings/major_scale_table.svg')
+d.save_svg('../drawings/scales/major_table.svg')
