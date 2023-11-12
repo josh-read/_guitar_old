@@ -28,6 +28,14 @@ class Grid:
     def row_centres(self):
         return [(n + 0.5) * self.cell_height + self.y for n in range(self.n_rows)]
 
+    @property
+    def grid_width(self):
+        return self.cell_width * self.n_cols
+
+    @property
+    def grid_height(self):
+        return self.cell_height * self.n_rows
+
 
 width = 400
 height = 400
@@ -56,6 +64,13 @@ row_height = height / n_rows
 
 grid = Grid(100, 0, n_cols, n_rows, (col_width, row_height))
 
+# draw the scale degree highlights
+pad = 5
+for i, x in enumerate(grid.col_edges):
+    if i in major_scale:
+        rect = draw.Rectangle(x=x+pad, y=grid.y+pad, width=grid.cell_width-2*pad, height=grid.grid_height-2*pad,
+                              fill='orange', fill_opacity=0.5)
+        d.append(rect)
 
 for y, row_text in zip(grid.row_centres, cell_text_array):
     for x, cell_text in zip(grid.col_centres, row_text):
