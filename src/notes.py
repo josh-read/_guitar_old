@@ -1,8 +1,6 @@
 import drawsvg as draw
 from grid import Grid
-import seaborn as sns
 from itertools import accumulate
-
 
 
 latin_names = {
@@ -39,7 +37,6 @@ intervals = {
 
 
 class Scale:
-    """When working with the scale object we work with semitones."""
 
     def __init__(self, semitones, root_note=None):
         """Initialise with the semitones in the scale. A root note can additionally be set."""
