@@ -6,6 +6,9 @@ class Fretboard:
 
     def __init__(self, *, n_frets: int, string_intervals: (int | Iterable), n_strings: int = None,
                  note_offset=0):
+        """Fretboard provides a model of a fretboard. The intervals between strings can be specified manually,
+        in which case the number of strings is inferred from the number of intervals. Alternatively, where the intervals
+        between strings are equal, a single value for string_intervals is accepted provided n_strings is also specified."""
         self.n_frets = n_frets
         if isinstance(string_intervals, Iterable):
             self.string_intervals = string_intervals
