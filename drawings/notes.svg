@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="550" height="50" viewBox="0 0 550 50">
+     width="650" height="50" viewBox="0 0 650 50">
 <defs>
 </defs>
 <circle cx="25.0" cy="25.0" r="20" fill="red" stroke="black" />
@@ -25,4 +25,8 @@
 <text x="475.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
 <circle cx="525.0" cy="25.0" r="20" fill="black" stroke="white" />
 <text x="525.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="575.0" cy="25.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="625.0" cy="25.0" r="20" fill="red" stroke="black" />
+<text x="625.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P8</text>
 </svg>

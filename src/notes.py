@@ -16,10 +16,11 @@ latin_names = {
     9: 'A',
     10: 'A#',
     11: 'B',
+    12: 'C',
 }
 
 
-intervals = {
+interval_names = {
     0: 'P1',
     1: 'm2',
     2: 'M2',
@@ -36,27 +37,39 @@ intervals = {
 }
 
 
-class Scale:
+class RotatingList(list):
+    """List with a rotation parameter, which applies an offset when iterating through the list.
+
+    The end result is similar to using the collections.deque rotate method, however the original order
+    can be retrieved by setting rotation to zero."""
+
+    def __init__(self, *args, rotation=0, **kwargs):
+        super(RotatingList, self).__init__(*args, **kwargs)
+        self.rotation = rotation
+
+    def __iter__(self):
+        rotated_list = self[self.rotation:] + self[:self.rotation]
+        return iter(rotated_list)
+
+    def rotate(self, n=1):
+        self.rotation += n
+
+
+class Scale(RotatingList):
 
     def __init__(self, semitones, root_note=None):
         """Initialise with the semitones in the scale. A root note can additionally be set."""
-        self.semitones = semitones
+        super().__init__(semitones)
         self.root_note = root_note
-        self.iter_semitones = None
-
-    def __len__(self):
-        return len(self.semitones)
 
     def __iter__(self):
-        self.iter_semitones = iter(self.semitones)
-        return self
+        for semitone in super(Scale, self).__iter__():
+            yield Note(semitone)
 
-    def __next__(self):
-        try:
-            semitone = next(self.iter_semitones)
-        except StopIteration as e:
-            raise e
-        return Note(semitone, scale=self)
+    def __getitem__(self, item):
+        """TODO: Could a UserList prevent having to reimplement this method."""
+        result = super(Scale, self).__getitem__(item)
+        return Scale(result, root_note=self.root_note)
 
     @classmethod
     def chromatic(cls, *args, **kwargs):
@@ -67,38 +80,56 @@ class Scale:
     def diatonic(cls, *args, mode=0, **kwargs):
         ionian_intervals = [2, 2, 1, 2, 2, 2, 1]
         mode_intervals = ionian_intervals[mode:] + ionian_intervals[:mode]
-        mode_semitones = list(accumulate(mode_intervals, initial=0))
+        mode_semitones = accumulate(mode_intervals, initial=0)
         return cls(semitones=mode_semitones, *args, **kwargs)
 
 
-class Note:
+class Note(int):
 
-    def __init__(self, semitone, scale=None):
+    def __new__(cls, semitone, scale=None):
         """Get information about the note."""
-        self.semitone = semitone
-        self.scale = scale
+        instance = super(Note, cls).__new__(cls, semitone)
+        instance.scale = scale
+        return instance
 
     def __repr__(self):
-        return f"Note({self.interval=})"
+        self_as_int = str(int(self))
+        description = f'semitone={self_as_int}'
+
+        try:
+            description += f', interval={self.interval}'
+        except KeyError:
+            pass
+
+        try:
+            description += f', latin_name={self.latin_name}'
+        except TypeError:
+            pass
+
+        return f"Note({description})"
+
+    def __str__(self):
+        return self.__repr__()
 
     def __eq__(self, other):
-        if isinstance(other, Note):
-            try:
-                return self.latin_name == other.latin_name
-            except TypeError:
-                return self.semitone == other.semitone
-        else:
-            return self.semitone == other
+        try:
+            return self.latin_name == other.latin_name
+        except TypeError:
+            return super(Note, self).__eq__(other)
+
+    def __hash__(self):
+        return super(Note, self).__hash__()
 
     @property
     def interval(self):
-        return intervals[self.semitone % 12]
+        return interval_names[self]
 
     @property
     def latin_name(self):
-        if self.scale.root_note is None:
+        try:
+            return latin_names[(self + self.scale.root_note) % 12]
+        except AttributeError:
             raise TypeError("Parent scale has no root note.")
-        return latin_names[(self.semitone + self.scale.root_note) % 12]
 
 
 # face color, stroke color
@@ -115,12 +146,12 @@ colors = {
     9: ('black', 'white'),
     10: ('black', 'white'),
     11: ('black', 'white'),
-    12: ('black', 'white'),
+    12: ('red', 'black'),
 }
 
 
 def draw_note(drawing, x, y, note):
-    face_color, stroke_color = colors[note.semitone % 12]
+    face_color, stroke_color = colors[note]
     circle = draw.Circle(x, y, r=20, fill=face_color, stroke=stroke_color)
     drawing.append(circle)
     text = draw.Text(note.interval, font_size=12, x=x, y=y, text_anchor='middle', dominant_baseline='middle', fill=stroke_color)

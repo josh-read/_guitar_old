@@ -1,129 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="700" height="450" viewBox="0 0 700 450">
+     width="650" height="400" viewBox="0 0 650 400">
 <defs>
 </defs>
+<rect x="50" y="0" width="50" height="400" fill="orange" fill-opacity="0.3" stroke="orange" />
 <text x="75.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
 <text x="175.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">2</text>
-<rect x="150" y="0" width="50" height="450" fill="orange" fill-opacity="0.3" stroke="orange" />
+<rect x="250" y="0" width="50" height="400" fill="orange" fill-opacity="0.3" stroke="orange" />
 <text x="275.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">3</text>
 <text x="325.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">4</text>
-<rect x="300" y="0" width="50" height="450" fill="orange" fill-opacity="0.3" stroke="orange" />
+<rect x="400" y="0" width="50" height="400" fill="orange" fill-opacity="0.3" stroke="orange" />
 <text x="425.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">5</text>
 <text x="525.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">6</text>
-<rect x="500" y="0" width="50" height="450" fill="orange" fill-opacity="0.3" stroke="orange" />
 <text x="625.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">7</text>
-<text x="675.0" y="25.0" font-size="12" text-anchor="middle" dominant-baseline="middle">8</text>
 <text x="25.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">1</text>
-<text x="75.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="125.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="175.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="225.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="275.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="325.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="375.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="425.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="475.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="525.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="575.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="625.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="675.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
+<circle cx="75.0" cy="75.0" r="20" fill="red" stroke="black" />
+<text x="75.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="125.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="175.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="225.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="275.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="325.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="375.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="425.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="475.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="525.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="575.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="625.0" cy="75.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="75.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
 <text x="25.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">2</text>
-<text x="75.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="125.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="175.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="225.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="275.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="325.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="375.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="425.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="475.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="525.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="575.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="625.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="675.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
+<circle cx="75.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="125.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="175.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="225.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="275.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="325.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="375.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="425.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="475.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="525.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="575.0" cy="125.0" r="20" fill="red" stroke="black" />
+<text x="575.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="625.0" cy="125.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="125.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
 <text x="25.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">3</text>
-<text x="75.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="125.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="175.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="225.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="275.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="325.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="375.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="425.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="475.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="525.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="575.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="625.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="675.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
+<circle cx="75.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="125.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="175.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="225.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="275.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="325.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="375.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="425.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="475.0" cy="175.0" r="20" fill="red" stroke="black" />
+<text x="475.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="525.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="575.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="625.0" cy="175.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="175.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
 <text x="25.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">4</text>
-<text x="75.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="125.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="175.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="225.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="275.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="325.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="375.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="425.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="475.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="525.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="575.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="625.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="675.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
+<circle cx="75.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="125.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="175.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="225.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="275.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="325.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="375.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="425.0" cy="225.0" r="20" fill="red" stroke="black" />
+<text x="425.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="475.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="525.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="575.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="625.0" cy="225.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="225.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
 <text x="25.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">5</text>
-<text x="75.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="125.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="175.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="225.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="275.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="325.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="375.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="425.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="475.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="525.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="575.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="625.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="675.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
+<circle cx="75.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="125.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="175.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="225.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="275.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="325.0" cy="275.0" r="20" fill="red" stroke="black" />
+<text x="325.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="375.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="425.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="475.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="525.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="575.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="625.0" cy="275.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="275.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
 <text x="25.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">6</text>
-<text x="75.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="125.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="175.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="225.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="275.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="325.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="375.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="425.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="475.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="525.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="575.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="625.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="675.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
+<circle cx="75.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="125.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="125.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
+<circle cx="175.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="225.0" cy="325.0" r="20" fill="red" stroke="black" />
+<text x="225.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="275.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="325.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="375.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="425.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="475.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="525.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="575.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="625.0" cy="325.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="325.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
 <text x="25.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">7</text>
-<text x="75.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="125.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="175.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="225.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="275.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="325.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="375.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="425.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="475.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="525.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="575.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="625.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="675.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="25.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">8</text>
-<text x="75.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
-<text x="125.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m2</text>
-<text x="175.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M2</text>
-<text x="225.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m3</text>
-<text x="275.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M3</text>
-<text x="325.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P4</text>
-<text x="375.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">TT</text>
-<text x="425.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P5</text>
-<text x="475.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m6</text>
-<text x="525.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M6</text>
-<text x="575.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">m7</text>
-<text x="625.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">M7</text>
-<text x="675.0" y="425.0" font-size="12" text-anchor="middle" dominant-baseline="middle">P1</text>
+<circle cx="75.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="75.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M7</text>
+<circle cx="125.0" cy="375.0" r="20" fill="red" stroke="black" />
+<text x="125.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="black">P1</text>
+<circle cx="175.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="175.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m2</text>
+<circle cx="225.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="225.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M2</text>
+<circle cx="275.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="275.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m3</text>
+<circle cx="325.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="325.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M3</text>
+<circle cx="375.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="375.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P4</text>
+<circle cx="425.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="425.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">TT</text>
+<circle cx="475.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="475.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">P5</text>
+<circle cx="525.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="525.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m6</text>
+<circle cx="575.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="575.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">M6</text>
+<circle cx="625.0" cy="375.0" r="20" fill="black" stroke="white" />
+<text x="625.0" y="375.0" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">m7</text>
 </svg>
