@@ -1,6 +1,7 @@
 import drawsvg as draw
 from grid import Grid
-from note import Scale, draw_note
+from note import draw_note
+from scale import Scale
 
 chromatic_scale = Scale.chromatic()[:-1]
 diatonic_scale = Scale.diatonic()[:-1]
